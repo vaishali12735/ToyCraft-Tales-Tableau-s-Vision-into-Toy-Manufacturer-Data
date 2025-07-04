@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Home - ToyCraft Tales{% endblock %}
+
+{% block content %}
+<div class="row align-items-center my-5">
+  <div class="col-md-6">
+    <h1 class="display-5 fw-bold">ToyCraft Tales: Tableau's Vision into Toy Manufacturer Data</h1>
+    <p class="lead" style="font-weight: 500;">
+      Uncover insights in toy production, sales trends, and market demand through interactive dashboards and data stories.
+    </p>
+    <a href="{{ url_for('about') }}" class="btn btn-primary mt-3 px-4 py-2">
+      Learn More
+    </a>
+  </div>
+  <div class="col-md-6 text-center">
+    <img src="https://s.wsj.net/public/resources/images/BN-LY016_INDTOY_J_20160103175653.jpg" alt="Toy Factory" class="img-fluid rounded shadow">
+  </div>
+</div>
+{% endblock %}
